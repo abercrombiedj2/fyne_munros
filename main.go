@@ -31,10 +31,6 @@ func main() {
 		fmt.Print(err)
 	}
 
-	for _, munro := range munros {
-		fmt.Println(munro.Name)
-	}
-
 	a := app.New()
 	w := a.NewWindow("Munros")
 	w.Resize(fyne.NewSize(800, 800))
